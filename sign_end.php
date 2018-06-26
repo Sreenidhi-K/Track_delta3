@@ -58,7 +58,7 @@ if(mysqli_connect_errno())
                 $some_res=mysqli_query($conn,"SELECT id FROM userslist WHERE username='$name_user';");
                 $rows=mysqli_fetch_row($some_res);
                 $id_res=$rows[0];
-                $new_sql="CREATE TABLE appnt$id_res (identity INT primary key auto_increment, title varchar(100) , dates DATE, st_time TIME, end_time TIME, descr varchar(10000));
+                $new_sql="CREATE TABLE appnt$id_res (identity INT primary key auto_increment, title varchar(1000) , dates DATE, st_time TIME, end_time TIME, descr varchar(50000));
                 ";
                 
                 $new_res=mysqli_query($conn,$new_sql);
@@ -69,7 +69,7 @@ if(mysqli_connect_errno())
                 dates date,
                 st_time time,
                 end_time time,
-                descr varchar(10000)
+                descr varchar(50000)
 
                 );";
                 $res_2=mysqli_query($conn,$sql_2);
