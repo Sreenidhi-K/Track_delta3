@@ -1,0 +1,193 @@
+body
+{
+    background-image:url("block_mix.png");
+    color: white;
+    margin: auto;
+    font-family: "Century Gothic";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+   
+   
+}
+h1
+{
+     background-color:black; 
+    padding: 10px;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    font-size: 50px;
+}
+h3
+{
+      background-color:black; 
+    padding: 10px;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    font-size: 50px;  
+}
+
+.login
+{
+    background-color:black; 
+    padding:50px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    line-height: 50px;
+    font-size: 20px;
+   
+}
+.sign_up_with
+{
+  background-color:black; 
+    padding:50px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    line-height: 50px;
+    font-size: 20px;
+     
+}
+.pin
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0%;
+    left: 45%;
+}
+#sign
+{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#sign:hover,#sign:active
+{
+    background-color: white;
+    color: black;
+   
+}
+#note_contain
+{
+   
+    position: absolute;
+    line-height: 20px;
+    top: 30%;
+    left: 5%;
+    font-size: 20px;
+    background-color: black;
+    border-color: white;
+    border-width: 2px;
+    border-style: dashed;
+    padding: 20px;
+}
+h5
+{
+    font-family:sans-serif;
+    font-size: 20px;
+}
+#todo_contain
+{
+     position: absolute;
+    line-height: 20px;
+    top: 30%;
+    left: 70%;
+    font-size: 20px;
+    background-color: black;
+    border-color: white;
+    border-width: 2px;
+    border-style: dashed;
+    padding: 20px;
+}
+#note
+{
+  background-color:black;
+    color: white;
+    text-decoration: none;  
+    padding: 10px;
+}
+
+#note:hover,#note:active
+{
+    background-color: white;
+    color: black;
+   
+}
+#log_log
+{
+    
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    padding: 10px;
+    font-size: 20px;
+}
+#log_log:hover,#log_log:active
+{
+    background-color: white;
+    color: black;
+   
+}
+
+input
+{
+    font-size: 20px;
+}
+h4
+{
+    background-color:black; 
+    padding: 10px;
+    line-height: 50px;
+    font-size: 20px;
+    
+}
+.note_disp
+{
+  position: absolute;
+    top: 30%;
+    left: 30%;  
+    background-color: black;
+    padding: 10px;
+    border-style: dashed;
+    border-color: white;
+    border-width: 2px;
+    max-width: 500px;
+    
+}
+
+#logout
+{
+    
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 12%;
+    left: 75%;
+    padding: 10px;
+    font-size: 20px;
+}
+#logout:hover,#logout:active
+{
+    background-color: white;
+    color: black;
+   
+}
+#stat
+{
+    color: white;
+}
