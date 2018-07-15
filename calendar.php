@@ -11,11 +11,7 @@ if(mysqli_connect_errno())
     echo("Connection failed");
 
 }
- if(!isset($_POST['login']))
-{
-    echo("Wrong way !");
-    die();
-}
+ 
 
 // Set your timezone
 date_default_timezone_set('Asia/Kolkata');
